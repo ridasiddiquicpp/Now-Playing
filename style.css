@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #131720;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    text-align: left;
+}
+
+h3 {
+    color: white;
+}
+
+.active {
+    
+    border: solid whitesmoke;
+    border-radius: 10px; 
+}
+.topnav {
+    background-color: #131720;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.topnav .search-container {
+    float: right;
+
+}
+
+#review_page_title {
+    text-align: center;
+}
+
+
+form {
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    all: unset;
+    font: 15px system-ui;
+    color:white;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+.review_input_box {
+    text-align: left;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 95%;
+    margin-top: -8px;
+    
+
+    background-color: #1d2b44;
+
+}
+
+.review_style {
+    margin-top: -9px;
+
+}
+.thumbnail {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    
+}
+
+#imageButton {
+    background-color: transparent;
+    background-size: cover;
+    border-radius: 19px;
+    width: 95%;
+    border: none;
+    padding: 10px 5px;
+    outline: none;
+}
+
+.thumbnail:hover {
+    filter: brightness(0.30);
+    
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.card {
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+    background-color: #151f30;
+}
+
+.review_card {
+    width: 290px;
+    height: 270px;
+    overflow:auto;
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+   
+    background-color: #151f30;
+}
+
+#popup {
+    padding: 20px 20px 20px 20px;
+    width: 400px;
+    height: wrap;
+    border-radius: 19px;
+    border: none;
+    background-color: #151f30;
+    box-shadow: 0px 0px 5px black;
+    outline: none;
+
+}
+
+#popup::backdrop {
+    background: black;
+    opacity: 0.7;
+}
+
+
+#logo {
+    padding: 20px 20px 20px 20px;
+    width: 400px;
+    height: wrap;
+    border-radius: 19px;
+    border: none;
+    background-color: #151f30;
+    box-shadow: 0px 0px 5px black;
+    outline: none;
+}
+
+#logo::backdrop {
+    background: black;
+    opacity: 0.7;
+}
+
+
+#movie_image {
+    margin-top: 2px;
+    margin-left: 2px;
+    
+   /* margin-left: auto;
+    margin-right: auto;
+    */
+    width: 220x;
+    height:250px;
+    display: block;
+    border-radius: 19px;
+    box-shadow: 0px 0px 35px black;
+}
+
+.closeButton { 
+    background-color:transparent;
+    color: white;
+    white-space: normal;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.closeButton:hover {
+    text-decoration: underline;
+   
+}
+
+#movieRelease {
+    font-size: 16px;
+    display: inline;
+}
+
+#release {
+    display:inline;
+}
+
+#movieInfo {
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+p {
+    color: white;
+    font: 10px;
+}
+
+h2 {
+    color:white;
+}
+
+.logo_image {
+    margin-top: -15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    outline: none;
+}
+
+
+#watchButton {
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: medium;
+    font-weight: bold;
+    padding: 8px;
+    color:  #131720;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    border:none;
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+#watchButton:hover {
+    filter: brightness(0.70);
+    
+}
+
+
